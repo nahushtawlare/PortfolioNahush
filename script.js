@@ -88,7 +88,7 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
     // Create a new anchor element
     var a = document.createElement('a');
     // Set the href attribute to the path of the resume file
-    a.href = 'Full Responsive Portfolio'; // Make sure this path is correct
+    a.href = 'Full Responsive Portfolio/NahushSDE1'; // Make sure this path is correct
     // Set the download attribute with a filename
     a.download = 'NahushSDE1.pdf';
     // Append the anchor to the body (necessary for the click to work in some browsers)
